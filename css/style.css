@@ -113,12 +113,13 @@ h6 {
 }
 
 .side_nav {
-  background-image: linear-gradient(135deg, #ee9ae5 10%, #5961f9 100%);
+  background-image: linear-gradient(135deg, #ce9ffc 10%, #7367f0 100%);
   top: 0;
   left: -220px;
   height: 100vh;
   width: 220px;
   z-index: 9999;
+  border-right: 3px solid #8874f3;
   -webkit-transition: 0.4s linear;
   transition: 0.4s linear;
 }
