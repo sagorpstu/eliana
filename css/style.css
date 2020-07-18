@@ -113,7 +113,7 @@ h6 {
 }
 
 .side_nav {
-  background:#091b29;
+  background-image: linear-gradient( 135deg, #ABDCFF 10%, #0396FF 100%);
   top: 0;
   left: -220px;
   height: 100vh;
