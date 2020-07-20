@@ -72,15 +72,24 @@ var sideNav = document.getElementById("sideNav");
 var openNav = document.getElementById("navOpen");
 var loadNav = document.getElementById("navLoader");
 var closeNav = document.getElementById("navClose");
+var navLayer = document.getElementById("navLayer");
 
 openNav.onclick = function () {
   sideNav.style.left = "0px";
+  navLayer.classList.add("active");
 };
 
 loadNav.onclick = function () {
   sideNav.style.left = "0px";
+  navLayer.classList.add("active");
 };
 
 closeNav.onclick = function () {
   sideNav.style.left = "-220px";
+  navLayer.classList.remove("active");
+};
+
+navLayer.onclick = function () {
+  sideNav.style.left = "-220px";
+  this.classList.remove("active");
 };
